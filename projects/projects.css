@@ -1,0 +1,91 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-image: inherit;
+  }
+  
+  li {
+    float: left;
+  }
+
+  .active {
+    background-color: #485846;
+  }
+
+  .tit{
+      color: black;
+  }
+
+  .image{
+      border-radius: 40%;
+  }
+
+  .name{
+    font-size: 70px;
+    color: black;
+    opacity: 1;
+  }
+
+  body{
+      color: gray;
+      background-color: whitesmoke;
+      text-align: center;
+  }
+
+  .im{
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+  }
+
+  .size{
+    text-shadow: 2px 2px violet;
+    font-size: 70px;
+    display: inline;
+    padding-right: 50px;
+}
+
+.size:hover{
+    text-shadow: 2px 2px blueviolet;
+    font-size: 70px;
+    display: inline;
+    padding-right: 50px;
+}
+
+.shad{
+  text-shadow: 1px 1px violet;
+}
+
+.sameline{
+    display: inline;
+    padding-right: 75px;
+}
+
+.shad:hover{
+  text-shadow: 1px 1px blueviolet;
+}
+
+  .connecter{
+    border-radius: 50%;
+}
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: blue;
+    background-color: wheat;
+    text-decoration: none;
+  }
+
+  a {
+      text-decoration: none;
+  }
